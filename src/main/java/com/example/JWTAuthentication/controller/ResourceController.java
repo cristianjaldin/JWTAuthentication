@@ -1,8 +1,5 @@
 package com.example.JWTAuthentication.controller;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,7 +12,11 @@ public class ResourceController {
 	
 	@GetMapping("/data")
 	public ResponseEntity<?> getInformacionBancaria(){
-		List<String> data = Arrays.asList("Cristian", "Juan", "Pedro");
+	
+		List<String> data = new ArrayList<>();
+		data.add("Cristian");
+		data.add("Juan");
+		data.add("Pedro");
 		return new ResponseEntity<>(data, HttpStatus.OK);
 		
 	}
