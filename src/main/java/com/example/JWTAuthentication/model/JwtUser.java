@@ -1,12 +1,13 @@
-package com.example.curso.model;
+package com.example.JWTAuthentication.model;
 
 public class JwtUser {
+	
 	private String username;
 	private long id;
 	private String role;
 	
 	public String getUsername() {
-		return userName;
+		return username;
 	}
 	public void setUsername(String username) {
 		this.username = username;

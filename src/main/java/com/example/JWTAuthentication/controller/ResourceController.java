@@ -1,4 +1,4 @@
-package com.example.curso.controller;
+package com.example.JWTAuthentication.controller;
 
 import java.util.ArrayList;
 import java.util.List;

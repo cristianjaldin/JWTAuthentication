@@ -1,4 +1,4 @@
-package com.example.curso.model;
+package com.example.JWTAuthentication.model;
 
 public class Login {
 	

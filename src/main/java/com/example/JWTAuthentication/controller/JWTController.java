@@ -1,4 +1,4 @@
-package com.example.curso.controller;
+package com.example.JWTAuthentication.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.curso.model.JwtUser;
-import com.example.curso.model.Login;
-import com.example.curso.security.JwtGenerator;
+import com.example.JWTAuthentication.model.JwtUser;
+import com.example.JWTAuthentication.model.Login;
+import com.example.JWTAuthentication.security.JwtGenerator;
 
 @RestController
 @RequestMapping("/token")
