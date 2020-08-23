@@ -12,12 +12,8 @@ public class ResourceController {
 	
 	@GetMapping("/data")
 	public ResponseEntity<?> getInformacionBancaria(){
-	
-		List<String> data = new ArrayList<>();
-		data.add("Cristian");
-		data.add("Juan");
-		data.add("Pedro");
-		return new ResponseEntity<>(data, HttpStatus.OK);
+
+		return new ResponseEntity<>("data", HttpStatus.OK);
 		
 	}
 	
